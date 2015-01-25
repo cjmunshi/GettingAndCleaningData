@@ -20,7 +20,12 @@ The tidy data set was produced through a series of steps appearing in the run_an
 9. The summarize_each function is then performed on the data set of step 8 having 10299 observations.  Once summarized on the group_by columns the resulting data set has a total number of observations equal to the total number of combinations in the group_by columns.  Since there are 6 activities and 30 subjects and all subjects performed all activities a total of 6*30 = 180 observations appear in the final data set.
 10. the final tidy data set of step 9 is written to a file.
 
-The 66 variables of the final tiday data set are actually the mean of the original mean and standard deviation variables by activity class and subject of the original data sets and are named and appear in the tidy data set as follows:
+The 66 variables of the final tiday data set are actually the mean of the original mean and standard deviation variables by activity class and subject of the original data sets and are named and appear in the tidy data set as listed below.
+
+NOTE: 
+Units for all Acceleration observations are in units of 1 Earth gravity or "g".  
+All acceleration observation labels have "Acc" in their name.
+Angular momentum variables have units of radians per second and contain "Gyro" in their names.
 
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
